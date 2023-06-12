@@ -1,3 +1,14 @@
+<!--
+    Esse projeto foi feito com base em uma aula no youtube no link abaixo.
+    https://www.youtube.com/watch?v=SR6xLAbisU8&t=2817s. 
+    Eu apenas fiz as modificações abaixo: 
+    *  Campo busca, com sua funcionalidade.
+    *  Só CSS sem Bootstrap.
+    *  Retorna a confirmação de atualização e exclusão.
+    *  Tabela com rolagem.
+    *  Conta o número de registro encontrado.  
+-->
+
 <?php include 'connx.php';?>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -86,7 +97,15 @@
                 <?php }; ?>
             </table>
         </div>
-    
+        <p><center>claudioadventista@hotmail.com. &#9742 / Whatsapp (81) 9.9924-6724</center></p>
+        <p>
+            <center>Links e redes sociais
+                <a class="but" href="https://m.facebook.com/claudio.xavier.37669?eav=AfYGlCND-Y3ECEIjKY2iiAaIzCIyhNAQYMwixLpQmCMg9e4scIVCUQaYagTlW-uxglk&paipv=0" target="blank">Facebook</a> 
+                <a class="but" href="https://www.instagram.com/oficina.c.t.eletronica/" target="blank">Instagram</a> 
+                <a class="but" href="https://www.youtube.com/channel/UClYcoL8yyFcxcSzK2L2zByw" target="blank">Youtube</a> 
+                <a class="but" href="https://www.youtube.com/watch?v=SR6xLAbisU8&t=2817s" target="blank"> Aula </a>
+            </center>
+        </p>
     <?php 
         }else{
             echo "Nada encontrado.";
